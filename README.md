@@ -4,12 +4,10 @@ First off I'd like to thank BuddyChewChew who created this script. I have modifi
 ## ⭐ PLAYLISTS
 
 UPDATE:
-02/26/26 Removed PlutoUS
-
+02/28/26 added Drews PlutoUS also changed scan time for every 4 hours since been working on several updates lately. Also changed the EPG to to be using my custom EPG combiner. 
 
 ▶️ One big playlist with EPG included. If EPG is incorrect please place an issue. 
 
-Heads up everyone – Pluto TV rolled out some config changes on their end, which broke PlutoUS playlist. I've had to remove it for now until they (or a workaround) fixes it. Sorry for the inconvenience, stay tuned!
 
 M3U: https://raw.githubusercontent.com/iptv2025tx/Combined/refs/heads/main/combined_playlist.m3u
 
