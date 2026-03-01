@@ -4,7 +4,7 @@ First off I'd like to thank BuddyChewChew who created this script. I have modifi
 ## ⭐ PLAYLISTS
 
 UPDATE:
-02/28/26 added Drews PlutoUS also changed scan time for every 4 hours since been working on several updates lately. 
+02/28/26 added multiple playlists, also changed scan time for every 4 hours since been working on several updates lately. 
 
 ▶️ One big playlist with EPG included. If EPG is incorrect please place an issue. 
 
