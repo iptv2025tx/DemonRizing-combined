@@ -1,8 +1,230 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Generated on 2026-03-05T08:27:02.086699 UTC
+# Generated on 2026-03-05T12:33:06.541998 UTC
 
 #PLAYLIST:x liveeventsfilter
 #EXTGRP:x liveeventsfilter
+
+
+==================================================
+
+#PLAYLIST:x roxiestreams
+#EXTGRP:x roxiestreams
+
+#GROUP:Sports - Live
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 01" group-title="Sports - Live",Soccer 01
+https://roxiestreams.info/soccer-streams-1
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 02" group-title="Sports - Live",Soccer 02
+https://roxiestreams.info/soccer-streams-2
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 03" group-title="Sports - Live",Soccer 03
+https://roxiestreams.info/soccer-streams-3
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 04" group-title="Sports - Live",Soccer 04
+https://roxiestreams.info/soccer-streams-4
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 05" group-title="Sports - Live",Soccer 05
+https://roxiestreams.info/soccer-streams-5
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 06" group-title="Sports - Live",Soccer 06
+https://roxiestreams.info/soccer-streams-6
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 07" group-title="Sports - Live",Soccer 07
+https://roxiestreams.info/soccer-streams-7
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 08" group-title="Sports - Live",Soccer 08
+https://roxiestreams.info/soccer-streams-8
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 09" group-title="Sports - Live",Soccer 09
+https://roxiestreams.info/soccer-streams-9
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 10" group-title="Sports - Live",Soccer 10
+https://roxiestreams.info/soccer-streams-10
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 11" group-title="Sports - Live",Soccer 11
+https://roxiestreams.info/soccer-streams-11
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 12" group-title="Sports - Live",Soccer 12
+https://roxiestreams.info/soccer-streams-12
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 13" group-title="Sports - Live",Soccer 13
+https://roxiestreams.info/soccer-streams-13
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 14" group-title="Sports - Live",Soccer 14
+https://roxiestreams.info/soccer-streams-14
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 15" group-title="Sports - Live",Soccer 15
+https://roxiestreams.info/soccer-streams-15
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 16" group-title="Sports - Live",Soccer 16
+https://roxiestreams.info/soccer-streams-16
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 17" group-title="Sports - Live",Soccer 17
+https://roxiestreams.info/soccer-streams-17
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 01" group-title="Sports - Live",NBA 01
+https://roxiestreams.info/nba-streams-1
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 02" group-title="Sports - Live",NBA 02
+https://roxiestreams.info/nba-streams-2
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 03" group-title="Sports - Live",NBA 03
+https://roxiestreams.info/nba-streams-3
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 04" group-title="Sports - Live",NBA 04
+https://roxiestreams.info/nba-streams-4
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 05" group-title="Sports - Live",NBA 05
+https://roxiestreams.info/nba-streams-5
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 06" group-title="Sports - Live",NBA 06
+https://roxiestreams.info/nba-streams-6
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 07" group-title="Sports - Live",NBA 07
+https://roxiestreams.info/nba-streams-7
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 08" group-title="Sports - Live",NBA 08
+https://roxiestreams.info/nba-streams-8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 09" group-title="Sports - Live",NBA 09
+https://roxiestreams.info/nba-streams-9
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 10" group-title="Sports - Live",NBA 10
+https://roxiestreams.info/nba-streams-10
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 11" group-title="Sports - Live",NBA 11
+https://roxiestreams.info/nba-streams-11
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 12" group-title="Sports - Live",NBA 12
+https://roxiestreams.info/nba-streams-12
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 13" group-title="Sports - Live",NBA 13
+https://roxiestreams.info/nba-streams-13
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 14" group-title="Sports - Live",NBA 14
+https://roxiestreams.info/nba-streams-14
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 15" group-title="Sports - Live",NBA 15
+https://roxiestreams.info/nba-streams-15
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 16" group-title="Sports - Live",NBA 16
+https://roxiestreams.info/nba-streams-16
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-name="NBA 17" group-title="Sports - Live",NBA 17
+https://roxiestreams.info/nba-streams-17
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 01" group-title="Sports - Live",MLB 01
+https://roxiestreams.info/mlb-streams-1
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 02" group-title="Sports - Live",MLB 02
+https://roxiestreams.info/mlb-streams-2
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 03" group-title="Sports - Live",MLB 03
+https://roxiestreams.info/mlb-streams-3
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 04" group-title="Sports - Live",MLB 04
+https://roxiestreams.info/mlb-streams-4
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 05" group-title="Sports - Live",MLB 05
+https://roxiestreams.info/mlb-streams-5
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 06" group-title="Sports - Live",MLB 06
+https://roxiestreams.info/mlb-streams-6
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 07" group-title="Sports - Live",MLB 07
+https://roxiestreams.info/mlb-streams-7
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 08" group-title="Sports - Live",MLB 08
+https://roxiestreams.info/mlb-streams-8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 09" group-title="Sports - Live",MLB 09
+https://roxiestreams.info/mlb-streams-9
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 10" group-title="Sports - Live",MLB 10
+https://roxiestreams.info/mlb-streams-10
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 11" group-title="Sports - Live",MLB 11
+https://roxiestreams.info/mlb-streams-11
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 12" group-title="Sports - Live",MLB 12
+https://roxiestreams.info/mlb-streams-12
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 13" group-title="Sports - Live",MLB 13
+https://roxiestreams.info/mlb-streams-13
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 14" group-title="Sports - Live",MLB 14
+https://roxiestreams.info/mlb-streams-14
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 15" group-title="Sports - Live",MLB 15
+https://roxiestreams.info/mlb-streams-15
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 16" group-title="Sports - Live",MLB 16
+https://roxiestreams.info/mlb-streams-16
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="MLB 17" group-title="Sports - Live",MLB 17
+https://roxiestreams.info/mlb-streams-17
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 01" group-title="Sports - Live",NFL 01
+https://roxiestreams.info/nfl-streams-1
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 02" group-title="Sports - Live",NFL 02
+https://roxiestreams.info/nfl-streams-2
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 03" group-title="Sports - Live",NFL 03
+https://roxiestreams.info/nfl-streams-3
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 04" group-title="Sports - Live",NFL 04
+https://roxiestreams.info/nfl-streams-4
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 05" group-title="Sports - Live",NFL 05
+https://roxiestreams.info/nfl-streams-5
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 06" group-title="Sports - Live",NFL 06
+https://roxiestreams.info/nfl-streams-6
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 07" group-title="Sports - Live",NFL 07
+https://roxiestreams.info/nfl-streams-7
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 08" group-title="Sports - Live",NFL 08
+https://roxiestreams.info/nfl-streams-8
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 09" group-title="Sports - Live",NFL 09
+https://roxiestreams.info/nfl-streams-9
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 10" group-title="Sports - Live",NFL 10
+https://roxiestreams.info/nfl-streams-10
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 11" group-title="Sports - Live",NFL 11
+https://roxiestreams.info/nfl-streams-11
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 12" group-title="Sports - Live",NFL 12
+https://roxiestreams.info/nfl-streams-12
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 13" group-title="Sports - Live",NFL 13
+https://roxiestreams.info/nfl-streams-13
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 14" group-title="Sports - Live",NFL 14
+https://roxiestreams.info/nfl-streams-14
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 15" group-title="Sports - Live",NFL 15
+https://roxiestreams.info/nfl-streams-15
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 16" group-title="Sports - Live",NFL 16
+https://roxiestreams.info/nfl-streams-16
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-name="NFL 17" group-title="Sports - Live",NFL 17
+https://roxiestreams.info/nfl-streams-17
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 01" group-title="Sports - Live",NHL 01
+https://roxiestreams.info/nhl-streams-1
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 02" group-title="Sports - Live",NHL 02
+https://roxiestreams.info/nhl-streams-2
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 03" group-title="Sports - Live",NHL 03
+https://roxiestreams.info/nhl-streams-3
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 04" group-title="Sports - Live",NHL 04
+https://roxiestreams.info/nhl-streams-4
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 05" group-title="Sports - Live",NHL 05
+https://roxiestreams.info/nhl-streams-5
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 06" group-title="Sports - Live",NHL 06
+https://roxiestreams.info/nhl-streams-6
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 07" group-title="Sports - Live",NHL 07
+https://roxiestreams.info/nhl-streams-7
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 08" group-title="Sports - Live",NHL 08
+https://roxiestreams.info/nhl-streams-8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 09" group-title="Sports - Live",NHL 09
+https://roxiestreams.info/nhl-streams-9
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 10" group-title="Sports - Live",NHL 10
+https://roxiestreams.info/nhl-streams-10
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 11" group-title="Sports - Live",NHL 11
+https://roxiestreams.info/nhl-streams-11
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 12" group-title="Sports - Live",NHL 12
+https://roxiestreams.info/nhl-streams-12
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 13" group-title="Sports - Live",NHL 13
+https://roxiestreams.info/nhl-streams-13
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 14" group-title="Sports - Live",NHL 14
+https://roxiestreams.info/nhl-streams-14
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 15" group-title="Sports - Live",NHL 15
+https://roxiestreams.info/nhl-streams-15
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 16" group-title="Sports - Live",NHL 16
+https://roxiestreams.info/nhl-streams-16
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-name="NHL 17" group-title="Sports - Live",NHL 17
+https://roxiestreams.info/nhl-streams-17
+#EXTINF:-1 tvg-name="AEW Wrestling" group-title="Sports - Live",AEW Wrestling
+https://roxiestreams.info/aew
+#EXTINF:-1 tvg-id="NCAA.Baseball.Dummy.us" tvg-name="NCAA 01" group-title="Sports - Live",NCAA 01
+https://roxiestreams.info/ncaa-streams-1
+#EXTINF:-1 tvg-id="NCAA.Baseball.Dummy.us" tvg-name="NCAA 02" group-title="Sports - Live",NCAA 02
+https://roxiestreams.info/ncaa-streams-2
+#EXTINF:-1 tvg-id="NCAA.Baseball.Dummy.us" tvg-name="NCAA 03" group-title="Sports - Live",NCAA 03
+https://roxiestreams.info/ncaa-streams-3
+#EXTINF:-1 tvg-id="NCAA.Baseball.Dummy.us" tvg-name="NCAA 04" group-title="Sports - Live",NCAA 04
+https://roxiestreams.info/ncaa-streams-4
+#EXTINF:-1 tvg-id="NCAA.Baseball.Dummy.us" tvg-name="NCAA 05" group-title="Sports - Live",NCAA 05
+https://roxiestreams.info/ncaa-streams-5
+#EXTINF:-1 tvg-id="NCAA.Baseball.Dummy.us" tvg-name="NCAA 06" group-title="Sports - Live",NCAA 06
+https://roxiestreams.info/ncaa-streams-6
+#EXTINF:-1 tvg-id="NCAA.Baseball.Dummy.us" tvg-name="NCAA 07" group-title="Sports - Live",NCAA 07
+https://roxiestreams.info/ncaa-streams-7
+#EXTINF:-1 tvg-id="NCAA.Baseball.Dummy.us" tvg-name="NCAA 08" group-title="Sports - Live",NCAA 08
+https://roxiestreams.info/ncaa-streams-8
+#EXTINF:-1 tvg-id="NCAA.Baseball.Dummy.us" tvg-name="NCAA 09" group-title="Sports - Live",NCAA 09
+https://roxiestreams.info/ncaa-streams-9
+#EXTINF:-1 tvg-name="WWE Wrestling" group-title="Sports - Live",WWE Wrestling
+https://roxiestreams.info/wwe-streams
+#EXTINF:-1 tvg-name="Supercross" group-title="Sports - Live",Supercross 
+https://roxiestreams.info/supercross
+
+#GROUP:PPV
+#EXTINF:-1 tvg-id="Pluto.TV.Dummy.us" tvg-name="PPV 01" group-title="PPV",PPV 01
+https://roxiestreams.info/ppv-streams-1
+#EXTINF:-1 tvg-id="Pluto.TV.Dummy.us" tvg-name="PPV 02" group-title="PPV",PPV 02
+https://roxiestreams.info/ppv-streams-2
+#EXTINF:-1 tvg-id="Pluto.TV.Dummy.us" tvg-name="PPV 03" group-title="PPV",PPV 03
+https://roxiestreams.info/ppv-streams-3
+#EXTINF:-1 tvg-id="Pluto.TV.Dummy.us" tvg-name="PPV 04" group-title="PPV",PPV 04
+https://roxiestreams.info/ppv-streams-4
+#EXTINF:-1 tvg-id="Pluto.TV.Dummy.us" tvg-name="PPV 05" group-title="PPV",PPV 05
+https://roxiestreams.info/ppv-streams-5
+#EXTINF:-1 tvg-id="Pluto.TV.Dummy.us" tvg-name="PPV 06" group-title="PPV",PPV 06
+https://roxiestreams.info/ppv-streams-6
+#EXTINF:-1 tvg-id="Pluto.TV.Dummy.us" tvg-name="PPV 07" group-title="PPV",PPV 07
+https://roxiestreams.info/ppv-streams-7
+#EXTINF:-1 tvg-id="Pluto.TV.Dummy.us" tvg-name="PPV 08" group-title="PPV",PPV 08
+https://roxiestreams.info/ppv-streams-8
+#EXTINF:-1 tvg-id="Pluto.TV.Dummy.us" tvg-name="PPV 09" group-title="PPV",PPV 09
+https://roxiestreams.info/ppv-streams-9
 
 
 ==================================================
@@ -14615,6 +14837,102 @@ http://tv.diablotv.net:8080/eEiiLll09384Ecaiman34RtR/KTap2pdJx7/175397
 http://tv.diablotv.net:8080/eEiiLll09384Ecaiman34RtR/KTap2pdJx7/177511
 #EXTINF:-1 tvg-name="24/7 OnlyFans - Laady Novoa EC (e)(1080)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzUOic_F67UW_XwNUb74eAUrVBAu907YEfA&s" group-title="XXX PREMIUM (+18)",24/7 OnlyFans - Laady Novoa EC (e)(1080)
 http://tv.diablotv.net:8080/eEiiLll09384Ecaiman34RtR/KTap2pdJx7/181558
+
+
+==================================================
+
+#PLAYLIST:x ott-news
+#EXTGRP:x ott-news
+
+#GROUP:News
+#EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS News 24/7-1 (D)" group-title="News",CBS News 24/7-1 (D)
+https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
+#EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS News 24/7-2 (D)" group-title="News",CBS News 24/7-2 (D)
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/f7707419-719c-4f73-91e4-210b196666ad:MRN2/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Baltimore 1 (D)" group-title="News",CBS News Baltimore 1 (D)
+https://dai.google.com/linear/hls/event/TMUt418sQMeu1QtneYJ9ag/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%229419fb8a-5bca-4f74-a5c4-321c256d88ce%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Baltimore 2 (D)" group-title="News",CBS News Baltimore 2 (D)
+https://dai.google.com/linear/hls/pa/event/TMUt418sQMeu1QtneYJ9ag/stream/b95dcd84-1e27-4f7f-bcd2-2a4fbd1a8795:TUL/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Bay Area 1 (D)" group-title="News",CBS News Bay Area 1 (D)
+https://dai.google.com/linear/hls/event/laLJwH1nS2KQAUQTF8z1Cg/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%225f983ce3-1309-42c6-bace-00e6bffc20a1%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Bay Area 2 (D) " group-title="News",CBS News Bay Area 2 (D)
+https://dai.google.com/linear/hls/pa/event/laLJwH1nS2KQAUQTF8z1Cg/stream/742d87dc-ea1c-449d-b73c-bd3d97ceaffd:CBF2/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Boston 1 (D) " group-title="News",CBS News Boston 1 (D)
+https://dai.google.com/linear/hls/event/dHA193vxQ_WqZNVoC-W5MA/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%224b4a2929-2480-489d-bf4c-dae25e50c5b7%22%2Csu 
+#EXTINF:-1 tvg-name="CBS News Boston 2 (D)" group-title="News",CBS News Boston 2 (D)
+https://dai.google.com/linear/hls/pa/event/dHA193vxQ_WqZNVoC-W5MA/stream/cf1f1a2c-d539-432b-9c31-9a5351253e08:CHS/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Chicago 1 (D)" group-title="News",CBS News Chicago 1 (D)
+https://dai.google.com/linear/hls/pa/event/_xQBtL7ZSEClkNebaXzn8w/stream/32f7319e-feaf-4153-a7ce-b689b3c1dbb2:ATL/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Chicago 2 (D)" group-title="News",CBS News Chicago 2 (D)
+https://dai.google.com/linear/hls/event/_xQBtL7ZSEClkNebaXzn8w/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%22e4a274ce-326e-4f60-a9ff-ce7d36540a4f%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Colorado 1 (D) " group-title="News",CBS News Colorado 1 (D)
+https://dai.google.com/linear/hls/event/E9CkyheTSKeGiOiICU_JBQ/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%22b9ed41d6-60d3-4117-8ade-5442aab9c234%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Colorado 2 (D)" group-title="News",CBS News Colorado 2 (D)
+https://dai.google.com/linear/hls/pa/event/E9CkyheTSKeGiOiICU_JBQ/stream/b35c338b-6291-4bda-a613-54ddee81627f:ATL/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Detroit 1 (D)" group-title="News",CBS News Detroit 1 (D)
+https://dai.google.com/linear/hls/event/xnyAMOsfSV2J1b-A3nROFQ/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%2231828b0a-33ec-4811-9166-50e08159221f%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Detroit 2 (D)" group-title="News",CBS News Detroit 2 (D)
+https://dai.google.com/linear/hls/pa/event/xnyAMOsfSV2J1b-A3nROFQ/stream/a59e7240-10b5-4ef4-9235-fe3ee6c0581b:TUL/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Los Angeles 1 (D)" group-title="News",CBS News Los Angeles 1 (D)
+https://dai.google.com/linear/hls/event/K_2aA7OVRTacJJli1oSi8w/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%22efd17af6-83aa-4c31-bfda-d439953761ce%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Los Angeles 2 (D)" group-title="News",CBS News Los Angeles 2 (D)
+https://dai.google.com/linear/hls/pa/event/K_2aA7OVRTacJJli1oSi8w/stream/a992e647-1f4e-4194-9e2e-74c5d1a6a33f:MRN2/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Miami 1 (D)" group-title="News",CBS News Miami 1 (D)
+https://dai.google.com/linear/hls/event/_yODrBHESGSzPe3dqW4gGg/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%22259ebc56-3f06-458b-a8cd-f4bc631b1fe2%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Miami 2 (D)" group-title="News",CBS News Miami 2 (D)
+https://dai.google.com/linear/hls/pa/event/_yODrBHESGSzPe3dqW4gGg/stream/1a8cc3ff-b4e4-4497-934a-046ef479c14b:TUL/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Minnesota 1 (D)" group-title="News",CBS News Minnesota 1 (D)
+https://dai.google.com/linear/hls/event/c0XucO32RNKG8oeQ351a4Q/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%22930e7dc4-8564-4a58-a2d4-695ec9b4b8bb%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Minnesota 2 (D)" group-title="News",CBS News Minnesota 2 (D)
+https://dai.google.com/linear/hls/pa/event/c0XucO32RNKG8oeQ351a4Q/stream/06c6e059-89dd-494a-929b-3c1a76ab0bc7:CBF2/master.m3u8
+#EXTINF:-1 tvg-name="CBS News New York 1 (D)" group-title="News",CBS News New York 1 (D)
+https://dai.google.com/linear/hls/event/jeTDC610T-OSPdiWhcl0Pg/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%22863058ce-a380-4187-800a-b5dbd636ee35%22%2Csu
+#EXTINF:-1 tvg-name="CBS News New York 2 (D)" group-title="News",CBS News New York 2 (D)
+https://dai.google.com/linear/hls/pa/event/jeTDC610T-OSPdiWhcl0Pg/stream/11e50cb0-c4af-4a52-9ff4-d4a362ca3938:DLS/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Philadelphia 1 (D)" group-title="News",CBS News Philadelphia 1 (D)
+https://dai.google.com/linear/hls/event/R2Kw0uvnQIW7fUmOseurzA/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%22fd63d32c-0393-495b-a329-64aa23d126dc%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Philadelphia 2 (D)" group-title="News",CBS News Philadelphia 2 (D)
+https://dai.google.com/linear/hls/pa/event/R2Kw0uvnQIW7fUmOseurzA/stream/700e5058-adea-4617-9e4f-f03dbcccb8f3:MRN2/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Pittsburgh 1 (D)" group-title="News",CBS News Pittsburgh 1 (D)
+https://dai.google.com/linear/hls/event/mir-uZYjTu6-8JLMHBTKhQ/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%22a61d745c-2219-444a-b833-96421454c9b7%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Pittsburgh 2 (D)" group-title="News",CBS News Pittsburgh 2 (D)
+https://dai.google.com/linear/hls/pa/event/mir-uZYjTu6-8JLMHBTKhQ/stream/95ec8248-cb7a-4b36-8055-2cf03385a717:CHS/master.m3u8
+#EXTINF:-1 tvg-name="CBS News Sacramento 1 (D)" group-title="News",CBS News Sacramento 1 (D)
+https://dai.google.com/linear/hls/event/e7mp4YVGS7O_e7rqRNjKow/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%22a8f2ade4-4038-4061-9c75-28d7a5187ff6%22%2Csu
+#EXTINF:-1 tvg-name="CBS News Sacramento 2 (D)" group-title="News",CBS News Sacramento 2 (D)
+https://dai.google.com/linear/hls/pa/event/e7mp4YVGS7O_e7rqRNjKow/stream/79ba7943-c9a1-4cf1-8315-2fdde6e39b87:CBF2/master.m3u8
+#EXTINF:-1 tvg-id="plex.tv.CBS.News.Texas.plex" tvg-name="CBS News Texas 1 (D)" group-title="News",CBS News Texas 1 (D)
+https://dai.google.com/linear/hls/event/ogzLhRCkRbG3lFHHJwqaNw/master.m3u8?CMCD=ot%3Dm%2Csf%3Dh%2Csid%3D%229903af2c-8961-47c0-a8da-034d25664940%22%2Csu
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12 Bronx, NY" group-title="News",News 12 Bronx, NY
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12XH_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12+ Bronx, NY" group-title="News",News 12+ Bronx, NY
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NYC_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12 Brooklyn, NY" group-title="News",News 12 Brooklyn, NY
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12 Connecticut" group-title="News",News 12 Connecticut
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12CH_FFLD_MILF_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12+ Connecticut" group-title="News",News 12+ Connecticut
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_CT_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12 Hudson Valley, NY" group-title="News",News 12 Hudson Valley, NY
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12HH_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12 Long Island, NY" group-title="News",News 12 Long Island, NY
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12+ Long Island, NY" group-title="News",News 12+ Long Island, NY
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12 New Jersey" group-title="News",News 12 New Jersey
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12JH_CENT_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12+ New Jersey" group-title="News",News 12+ New Jersey
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NJ_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12 Westchester, NY" group-title="News",News 12 Westchester, NY
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12WH_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="NEWS.dummy.us" tvg-name="News 12+ Westchester, NY" group-title="News",News 12+ Westchester, NY
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_WC_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="Scripps.News.us2" tvg-name="Scripps News (D)" group-title="News",Scripps News (D)
+https://assets.scrippsdigital.com/cms/video/player.html?video=https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8&live=1&autoplay=true&purl=/live&da=1&title=Scripps%20News%20Live&kw=&contplay=*recent&mute=1&section=Live&cust_params=temp%3D%26weather%3D&host=scrippsnews.com&s=snews&env=production
+
+#GROUP:New Group
+#EXTINF:-1 tvg-id="plex.tv.CBS.News.Texas.plex" tvg-name="CBS News Texas 2 (D)" group-title="New Group",CBS News Texas 2 (D)
+https://dai.google.com/linear/hls/pa/event/ogzLhRCkRbG3lFHHJwqaNw/stream/f2a2ff9b-9c38-4ce3-93d8-11d129b15933:TUL/master.m3u8
 
 
 ==================================================
