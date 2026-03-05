@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Generated on 2026-03-05T20:26:53.548277 UTC
+# Generated on 2026-03-05T21:31:44.145739 UTC
 
 #PLAYLIST:x liveeventsfilter
 #EXTGRP:x liveeventsfilter
@@ -15,7 +15,7 @@
 https://roxiestreams.info/soccer-streams-1
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 02" group-title="Sports - Live",Soccer 02
 https://roxiestreams.info/soccer-streams-2
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 03" group-title="Sports - Live",Soccer 03
+#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer03" group-title="Sports - Live",Soccer 03
 https://roxiestreams.info/soccer-streams-3
 #EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-name="Soccer 04" group-title="Sports - Live",Soccer 04
 https://roxiestreams.info/soccer-streams-4
@@ -201,9 +201,11 @@ https://roxiestreams.info/ncaa-streams-7
 https://roxiestreams.info/ncaa-streams-8
 #EXTINF:-1 tvg-id="NCAA.Baseball.Dummy.us" tvg-name="NCAA 09" group-title="Sports - Live",NCAA 09
 https://roxiestreams.info/ncaa-streams-9
-#EXTINF:-1 tvg-name="WWE Wrestling" group-title="Sports - Live",WWE Wrestling
+#EXTINF:-1 tvg-id="Netflix.Dummy.us" tvg-name="WWE Wrestling" group-title="Sports - Live",WWE Wrestling
 https://roxiestreams.info/wwe-streams
-#EXTINF:-1 tvg-name="Supercross" group-title="Sports - Live",Supercross 
+#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="MotorSports Arca" group-title="Sports - Live",MotorSports Arca
+https://roxiestreams.info/arca
+#EXTINF:-1 tvg-id="Racing.Dummy.us" tvg-name="MotorSports Supercross" group-title="Sports - Live",MotorSports Supercross
 https://roxiestreams.info/supercross
 
 #GROUP:PPV
@@ -225,6 +227,10 @@ https://roxiestreams.info/ppv-streams-7
 https://roxiestreams.info/ppv-streams-8
 #EXTINF:-1 tvg-id="Pluto.TV.Dummy.us" tvg-name="PPV 09" group-title="PPV",PPV 09
 https://roxiestreams.info/ppv-streams-9
+
+#GROUP:New Group
+#EXTINF:-1 tvg-id="Netflix.Dummy.us" tvg-name="AEW Wrestling" group-title="New Group",AEW Wrestling
+https://roxiestreams.info/aew
 
 
 ==================================================
