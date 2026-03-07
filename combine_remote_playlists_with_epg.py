@@ -1,0 +1,169 @@
+import requests
+from datetime import datetime
+import re
+
+# ===== CONFIGURATION =====
+# Add or remove playlist URLs here as needed
+PLAYLISTS = [
+        "https://github.com/BuddyChewChew/sports/raw/refs/heads/main/liveeventsfilter.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/OTT/roxiestreams.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/sinclair.m3u8",      
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/Curated/combo-tvp-nc-moj.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/turnerwbd.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/estrella.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/direct/us_shopping.m3u8", 
+        "http://drewlive2423.duckdns.org:8081/DrewLive/DrewLive Merged Playlist.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/app-m3u-generator/refs/heads/main/playlists/plex_au.m3u",
+        "https://raw.githubusercontent.com/iptv2025tx/app-m3u-generator/refs/heads/main/playlists/plex_ca.m3u",
+        "https://raw.githubusercontent.com/iptv2025tx/app-m3u-generator/refs/heads/main/playlists/plex_gb.m3u",
+        "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/plex_us.m3u", 
+        "https://raw.githubusercontent.com/iptv2025tx/app-m3u-generator/refs/heads/main/playlists/plutotv_es.m3u",
+        "https://raw.githubusercontent.com/iptv2025tx/app-m3u-generator/refs/heads/main/playlists/plutotv_fr.m3u",
+        "https://raw.githubusercontent.com/iptv2025tx/app-m3u-generator/refs/heads/main/playlists/plutotv_gb.m3u",
+        "https://raw.githubusercontent.com/iptv2025tx/app-m3u-generator/refs/heads/main/playlists/plutotv_mx.m3u",
+        "https://raw.githubusercontent.com/iptv2025tx/app-m3u-generator/refs/heads/main/playlists/plutotv_us.m3u",
+        "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/samsungtvplus_us.m3u", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/apsattv/distro-w-epg.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/direct/dancetv.m3u8",
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/HDHR/alexandria-la-hdhr.m3u8",
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/HDHR/bethlehem-pa-hdhr.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/HDHR/chicago-il-hdhr1.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/HDHR/chicago-il-hdhr2.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/HDHR/hou-tx-hdhr.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/HDHR/miami-wpb-fl-hdhr.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/HDHR/pittsburgh-pa-hdhr1.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/HDHR/pittsburgh-pa-hdhr2.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/HDHR/rhinelander-wi-hdhr.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/HDHR/scranton-pa-hdhr.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/OTT/roku.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/Curated/iheart1.m3u8", 
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/OTT/diablo.m3u8",
+        "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/OTT/ott-news.m3u8", 
+    # Add more playlists here in the format: "URL_TO_PLAYLIST"
+]
+
+# EPG URL
+EPG_URL = "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+
+# Output file
+OUTPUT_FILE = "DemonRizing_playlist.m3u"
+
+# ===== SESSION WITH MAX CONNECTIONS =====
+# Create session with connection pool limited to 2000 max connections
+session = requests.Session()
+session.mount('http://', requests.adapters.HTTPAdapter(max_retries=3, pool_maxsize=2000, pool_connections=2000))
+session.mount('https://', requests.adapters.HTTPAdapter(max_retries=3, pool_maxsize=2000, pool_connections=2000))
+
+# ===== FUNCTIONS =====
+def get_playlist_name(url):
+    """Extract a clean name from the playlist URL"""
+    # Get the last part of URL and remove file extensions
+    name = url.split('/')[-1]
+    return re.sub(r'(.m3u8?|.txt)?$', '', name, flags=re.IGNORECASE).strip() or 'Unnamed_Playlist'
+
+def fetch_playlist(url):
+    """Fetch playlist content from URL using session with connection limits"""
+    try:
+        response = session.get(url, timeout=15)
+        response.raise_for_status()
+        return response.text.splitlines()
+    except Exception as e:
+        print(f"❌ Failed to fetch {url}: {e}")
+        return None
+
+def process_playlist(playlist_content, source_name, outfile):
+    """Process and write playlist content to output file"""
+    if not playlist_content:
+        return
+    
+    # Create a dictionary to store groups and their channels
+    groups = {}
+    current_group = "Ungrouped"
+    
+    # First pass: organize channels by their groups
+    i = 0
+    while i < len(playlist_content):
+        line = playlist_content[i]
+        
+        # Check if this is a group title line
+        if line.startswith("#EXTGRP:"):
+            current_group = line.split(':', 1)[1].strip()
+            i += 1
+            continue
+            
+        # Check if this is a channel info line
+        if line.startswith("#EXTINF"):
+            # Extract group-title if it exists
+            group_match = re.search(r'group-title="([^"]*)"', line)
+            if group_match:
+                current_group = group_match.group(1).split(',')[0].strip() or "Ungrouped"
+            
+            # Get the channel URL (next line)
+            if i + 1 < len(playlist_content) and not playlist_content[i+1].startswith('#'):
+                channel_url = playlist_content[i+1]
+                if current_group not in groups:
+                    groups[current_group] = []
+                groups[current_group].append((line, channel_url))
+                i += 2
+                continue
+        
+        i += 1
+    
+    # Write the playlist header
+    outfile.write(f'#PLAYLIST:x {source_name}
+')
+    outfile.write(f'#EXTGRP:x {source_name}
+
+')
+    
+    # Write groups and their channels
+    for group, channels in groups.items():
+        outfile.write(f'#GROUP:{group}
+')
+        for channel_info, channel_url in channels:
+            outfile.write(f'{channel_info}
+')
+            outfile.write(f'{channel_url}
+')
+        outfile.write('
+')
+    
+    outfile.write('
+' + '='*50 + '
+
+')  # Separator between playlists
+
+def main():
+    """Main function to combine playlists"""
+    print(f"🚀 Starting to combine {len(PLAYLISTS)} playlists...")
+    print(f"🔌 Session configured with max 2000 connections")
+    
+    try:
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as outfile:
+            # Write header with EPG URL and timestamp
+            outfile.write(f'#EXTM3U x-tvg-url="{EPG_URL}"
+')
+            outfile.write(f'# Generated on {datetime.utcnow().isoformat()} UTC
+
+')
+            
+            # Process each playlist
+            for url in PLAYLISTS:
+                print(f"🔄 Processing: {url}")
+                content = fetch_playlist(url)
+                if content:
+                    source_name = get_playlist_name(url)
+                    process_playlist(content, source_name, outfile)
+                    print(f"✅ Added: {source_name} with groups")
+        
+        print(f"
+🎉 Success! Combined playlist saved as '{OUTPUT_FILE}'")
+        print(f"📺 EPG URL: {EPG_URL}")
+        
+    finally:
+        # Close session to release connections
+        session.close()
+        print("🔒 Session closed")
+
+if __name__ == "__main__":
+    main()
