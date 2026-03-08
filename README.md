@@ -1,7 +1,7 @@
 # Many Thanks
 First off I'd like to thank BuddyChewChew who created this script. I have modified it to include several scripts that are on the public domain.
 
-##Updates
+## Updates
 03/08/26 new link & repo. 
 
 ## ⭐ PLAYLISTS
