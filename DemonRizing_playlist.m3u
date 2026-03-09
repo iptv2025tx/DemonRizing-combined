@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Generated on 2026-03-09T20:38:30.503561 UTC
+# Generated on 2026-03-09T23:44:56.338364 UTC
 
 #PLAYLIST:x liveeventsfilter
 #EXTGRP:x liveeventsfilter
@@ -14,35 +14,37 @@
 #EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",Miami Marlins vs New York Mets
 https://602.xn--1000-ugoa0hsb9a0hb.com/mlb5.m3u8
 #EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",Cuba vs Puerto Rico
+https://daffodil.xn--1000-ugoa0hsb9a0hb.com/mlb.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",Cuba vs Puerto Rico (Mirror 1)
 https://602.xn--1000-ugoa0hsb9a0hb.com/mlb.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",USA vs Mexico
-https://602.xn--1000-ugoa0hsb9a0hb.com/mlb7.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",Colombia vs Panama
-https://602.xn--1000-ugoa0hsb9a0hb.com/mlb2.m3u8
-#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",Pittsburgh Pirates vs New York Yankees
-https://602.xn--1000-ugoa0hsb9a0hb.com/mlb6.m3u8
 #EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",Los Angeles Dodgers vs Milwaukee Brewers
 https://602.xn--1000-ugoa0hsb9a0hb.com/mlb4.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",Colombia vs Panama
+https://602.xn--1000-ugoa0hsb9a0hb.com/mlb2.m3u8
 #EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",Baltimore Orioles vs St. Louis Cardinals
 https://602.xn--1000-ugoa0hsb9a0hb.com/mlb3.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",USA vs Mexico
+https://602.xn--1000-ugoa0hsb9a0hb.com/mlb7.m3u8
+#EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/baseball.png?raw=true" group-title="Baseball",Pittsburgh Pirates vs New York Yankees
+https://602.xn--1000-ugoa0hsb9a0hb.com/mlb6.m3u8
 
 #GROUP:Hockey
-#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/hockey.png?raw=true" group-title="Hockey",Utah Mammoth vs Chicago Blackhawks
-https://602.xn--1000-ugoa0hsb9a0hb.com/nhl4.m3u8
-#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/hockey.png?raw=true" group-title="Hockey",Ottawa Senators vs Vancouver Canucks
-https://602.xn--1000-ugoa0hsb9a0hb.com/nhl5.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/hockey.png?raw=true" group-title="Hockey",Calgary Flames vs Washington Capitals
 https://602.xn--1000-ugoa0hsb9a0hb.com/nhl3.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/hockey.png?raw=true" group-title="Hockey",Ottawa Senators vs Vancouver Canucks
+https://602.xn--1000-ugoa0hsb9a0hb.com/nhl5.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/hockey.png?raw=true" group-title="Hockey",Los Angeles Kings vs Columbus Blue Jackets
 https://602.xn--1000-ugoa0hsb9a0hb.com/nhl.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/hockey.png?raw=true" group-title="Hockey",New York Rangers vs Philadelphia Flyers
 https://602.xn--1000-ugoa0hsb9a0hb.com/nhl2.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/hockey.png?raw=true" group-title="Hockey",Utah Mammoth vs Chicago Blackhawks
+https://602.xn--1000-ugoa0hsb9a0hb.com/nhl4.m3u8
 
 #GROUP:General Sports
-#EXTINF:-1 tvg-id="Sports.Rox.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/default.png?raw=true" group-title="General Sports",Indy NXT
-https://602.xn--1000-ugoa0hsb9a0hb.com/mlb9.m3u8
-#EXTINF:-1 tvg-id="Sports.Rox.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/default.png?raw=true" group-title="General Sports",Indy NXT (Mirror 1)
+#EXTINF:-1 tvg-id="Sports.Rox.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/default.png?raw=true" group-title="General Sports",Indycar Series
 https://602.xn--1000-ugoa0hsb9a0hb.com/indycar.m3u8
+#EXTINF:-1 tvg-id="Sports.Rox.us" tvg-logo="https://github.com/BuddyChewChew/sports/blob/main/sports%20logos/default.png?raw=true" group-title="General Sports",Indycar Series (Mirror 1)
+https://602.xn--1000-ugoa0hsb9a0hb.com/mlb9.m3u8
 
 
 ==================================================
@@ -633,6 +635,16 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3uscln/medlow.m3u8
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4uscln/master.m3u8
 #EXTINF:-1 tvg-name="QVC4: In The Kitchen SD (D)" group-title="Shopping",QVC4: In The Kitchen SD (D)
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4uscln/medlow.m3u8
+
+
+==================================================
+
+#PLAYLIST:x aew_fast_ch
+#EXTGRP:x aew_fast_ch
+
+#GROUP:Sports
+#EXTINF:-1 tvg-name="AEW Wrestling (FAST Channel)" group-title="Sports",AEW Wrestling (FAST Channel)
+https://amg16221-amg16221c1-amgplt0795.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg16221-amg16221c1-amgplt0795/d78f5660-1c10-11f1-a49a-a2c623053cc4/12/1920x1080_6046040/index.m3u8
 
 
 ==================================================
