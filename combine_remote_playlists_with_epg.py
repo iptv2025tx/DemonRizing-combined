@@ -12,6 +12,7 @@ PLAYLISTS = [
         "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/direct/turnerwbd.m3u8", 
         "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/direct/estrella.m3u8", 
         "https://raw.githubusercontent.com/iptv2025tx/one-stop-2026/refs/heads/main/Iptv2025tx/direct/us_shopping.m3u8", 
+        "https://github.com/iptv2025tx/one-stop-2026/raw/refs/heads/main/Iptv2025tx/Curated/aew_fast_ch.m3u8", 
         "http://drewlive2423.duckdns.org:8081/DrewLive/DrewLive Merged Playlist.m3u8", 
         "https://raw.githubusercontent.com/iptv2025tx/app-m3u-generator/refs/heads/main/playlists/plex_au.m3u",
         "https://raw.githubusercontent.com/iptv2025tx/app-m3u-generator/refs/heads/main/playlists/plex_ca.m3u",
